@@ -1,12 +1,12 @@
 streamlit==1.16.0
 pandas==1.5.3
+numpy==1.24.2
+scikit-learn==1.2.2
 matplotlib==3.7.1
 seaborn==0.12.2
 plotly==5.7.0
-textblob==0.15.3
 wordcloud==1.8.2.2
-numpy==1.24.2
-scikit-learn==1.2.2
-urlextract==1.7.0
+textblob==0.15.3
 emoji==2.6.0
 beautifulsoup4==4.11.1
+urlextract==1.7.0
