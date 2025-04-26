@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+/* Title Section */
+h1 {
+    font-size: 35px;
+    color: #141E46;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    margin: 30px 0;
+    background: #d0f0d6;
+    padding: 30px;
+    border-bottom: 4px solid #878787;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: #596169;
+}
+
+.big-font {
+    font-size: 30px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Sidebar Styles */
+.stSidebar {
+    background-color: #343a40;
+    color: white;
+}
+
+.stSidebar .stButton {
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+.stSidebar .stButton:hover {
+    background-color: #218838;
+}
+
+/* Chat Display Section */
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.chat-header .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.chat-header .button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.chat-header .button:hover {
+    background-color: #0056b3;
+}
+
+/* Data Table */
+.stDataFrame {
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    padding: 15px;
+}
+
+.stDataFrame table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.stDataFrame th, .stDataFrame td {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    text-align: center;
+}
+
+/* Button Styles */
+.stButton {
+    color: rgb(108, 107, 107);
+    font-size: 18px;
+}
+
+/* Custom Scrollbar */
+.stScrollbar {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+/* Add a simple footer */
+footer {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    color: #6c757d;
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .chat-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chat-header .title {
+        margin-bottom: 15px;
+    }
+
+    .chat-header .button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
