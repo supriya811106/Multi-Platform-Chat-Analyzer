@@ -36,12 +36,19 @@ It includes cleaning, statistics generation, personality summarization, sentimen
     ```
 
     **Required libraries:**
-    - pandas
-    - numpy
-    - emoji
-    - textblob
-    - wordcloud
-    - scikit-learn
+- streamlit: For creating the web interface of the chat analyzer.
+- pandas: For data manipulation and analysis.
+- matplotlib: For plotting data visualizations.
+- seaborn: For enhanced data visualizations.
+- plotly: For interactive visualizations.
+- textblob: For performing sentiment analysis.
+- wordcloud: For generating word clouds.
+- numpy: For numerical operations.
+- scikit-learn: For machine learning tools like CountVectorizer and LatentDirichletAllocation.
+- urlextract: For extracting URLs from chat messages.
+- emoji: For processing emoji data in messages.
+- beautifulsoup4: For parsing HTML data, used for Telegram chat parsing.
+- datetime: For handling date and time data.
 
 ---
 
