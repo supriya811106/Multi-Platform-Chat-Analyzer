@@ -52,35 +52,6 @@ It includes cleaning, statistics generation, personality summarization, sentimen
 
 ---
 
-## 🚀 Usage
-
-```python
-import chat_analyzer  # Assuming you save the above code as chat_analyzer.py
-
-# Clean messages
-cleaned_messages = chat_analyzer.clean_messages(messages, platform="telegram", usernames=["John", "Jane"])
-
-# Fetch stats
-stats = chat_analyzer.fetch_stats(selected_user="John", df=your_dataframe, platform="telegram")
-
-# Generate personality summary
-summary = chat_analyzer.personality_summary(stats)
-
-# Sentiment extraction
-df["Sentiment"] = df["message"].apply(chat_analyzer.extract_sentiment)
-
-# Perform TF-IDF
-important_words = chat_analyzer.perform_tfidf_analysis(messages)
-
-# Perform LDA topic modeling
-topics = chat_analyzer.perform_lda_analysis(messages)
-
-# Comparative analysis
-comparison = chat_analyzer.perform_comparative_analysis(df, users_to_compare=["John", "Jane"], start_date="2024-01-01", end_date="2024-04-01")
-```
-
----
-
 ## 📈 Output Examples
 
 - **Personality Summaries** like:
