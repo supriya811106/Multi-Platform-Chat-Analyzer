@@ -67,8 +67,8 @@ It includes cleaning, statistics generation, personality summarization, sentimen
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/supriya811106/Multi-Platform-Chat-Anayzer.git
-    cd Multi-Platform-Chat-Anayzer
+    git clone https://github.com/supriya811106/Multi-Platform-Chat-Analyzer.git
+    cd Multi-Platform-Chat-Analyzer
     ```
 
 2. Install dependencies:
